@@ -1,0 +1,64 @@
+/* This stylesheet is used to style the public-facing components of the plugin. */
+
+
+/* CUSTOM GRID */
+.wpcollab-project-content{}
+.wpcollab-project-content .text-right{text-align:right;}
+.wpcollab-project-content .text-centered{text-align:center;}
+.wpcollab-project-content .col{display:block;}
+.wpcollab-project-content .wrap{width: 100%;margin-left: auto;margin-right: auto;margin-top: 0;margin-bottom: 0;max-width:1024px;}
+.wpcollab-project-content .row{overflow:hidden;margin-bottom:10px;}
+.wpcollab-project-content .onecol{width:8.33333%;float:left;}
+.wpcollab-project-content .twocol{width:16.66667%;float:left;}
+.wpcollab-project-content .threecol{width:25%;float:left;}
+.wpcollab-project-content .fourcol{width:33.33333%;;float:left;}
+.wpcollab-project-content .fivecol{width:41.66667%;float:left;}
+.wpcollab-project-content .sixcol{width:50%;float:left;}
+.wpcollab-project-content .sevencol{width:58.33333%;;float:left;}
+.wpcollab-project-content .eightcol{width:66.66667%;float:left;}
+.wpcollab-project-content .ninecol{width:75%;float:left;}
+.wpcollab-project-content .tencol{width:83.33333%;float:left;}
+.wpcollab-project-content .elevencol{width:91.66667%;float:left;}
+
+/* END CUSTOM GRID */
+
+/* WPCollab Archive Page */
+.wpcollab-project-archive .wpcollab-error-msg {
+  margin-bottom: 0.5em;
+  padding: 1em 2em;
+  background: #efefef;
+  border-left: 2px solid #f00;
+  font-size: 0.9em;
+}
+
+.wpcollab-project-archive .wpcollab-success-msg {
+  margin-bottom: 0.5em;
+  padding: 1em 2em;
+  background: #efefef;
+  border-left: 2px solid #20c03b;
+  font-size: 0.9em;
+}
+
+.wpcollab-project-archive .wpcollab-project-manager{}
+.wpcollab-project-archive .wpcollab-project-manager .manager-caption{}
+.wpcollab-project-archive .wpcollab-project-manager .manager-caption:after{content:":";}
+
+/* END WPCollab Archive Page */
+
+/* WPCollab Single Page */
+
+.wpcollab-project-content .wpcollab-wpcollab_project-login-form{}
+.wpcollab-project-content .wpcollab-wpcollab_project-login-form .wpcollab-wpcollab_project-login-form-title{margin-bottom:1em;}
+
+.wpcollab-project-content .wpcollab-admin-only{background:#ffffe8}
+.wpcollab-project-content .wpcollab-project-status{margin-top:10px;}
+.wpcollab-project-content fieldset{border: 1px solid #c0c0c0;margin: 0 2px;padding: 0.35em 0.625em 0.75em;}
+
+.wpcollab-project-content .wpcollab-project-status{}
+.wpcollab-project-content .wpcollab-project-status .status-caption{}
+.wpcollab-project-content .wpcollab-project-status .status-caption:after{content:":";}
+
+.wpcollab-project-content .wpcollab-project-manager{}
+.wpcollab-project-content .wpcollab-project-manager img.avatar{border: 0;vertical-align: middle;}
+
+/* END WPCollab Single Page */
